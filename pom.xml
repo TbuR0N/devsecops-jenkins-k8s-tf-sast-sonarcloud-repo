@@ -319,6 +319,11 @@
         <org>Shikhar82</org>
       </configuration>
     </plugin>
+  <plugin>
+	<groupId>org.apache.maven.plugins</groupId>
+	<artifactId>maven-antrun-plugin</artifactId>
+	<version>1.8</version>
+  </plugin>
 <!-- Snyk Changes for SCA Ends Here -->
 		</plugins>
 		<pluginManagement>
@@ -350,11 +355,6 @@
 						</lifecycleMappingMetadata>
 					</configuration>
 				</plugin>
-			        <plugin>
-			            <groupId>org.apache.maven.plugins</groupId>
-			            <artifactId>maven-antrun-plugin</artifactId>
-			            <version>1.8</version>
-        			</plugin>
 			</plugins>
 		</pluginManagement>
 	</build>
